@@ -1,3 +1,5 @@
+import React from "react";
+
 export function Card({
   className,
   title,
@@ -15,6 +17,7 @@ export function Card({
       href={`${href}?utm_source=create-turbo&utm_medium=basic&utm_campaign=create-turbo"`}
       rel="noopener noreferrer"
       target="_blank"
+      style={{ backgroundColor: "red" }}
     >
       <h2>
         {title} <span>-&gt;</span>

@@ -1,10 +1,10 @@
 {
-  "name": "@repo/ui",
+  "name": "ui",
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
+    "./src/button": "./src/button.tsx",
+    "./src/card": "./src/card.tsx",
     "./code": "./src/code.tsx"
   },
   "scripts": {
